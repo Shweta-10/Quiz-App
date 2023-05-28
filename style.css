@@ -11,7 +11,7 @@ body{
 
 .app{
     background: #fff;
-    background-image: url('download.png');
+    background-image: url('images/download.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;

@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "1. Inside which HTML element do we put the JavaScript?",
+    question: "Inside which HTML element do we put the JavaScript?",
     answers: [
       {
         text: "Object-Oriented",
@@ -21,7 +21,8 @@ const questions = [
     ],
   },
   {
-    question: "2. Which of the following keywords is used to define a variable in Javascript?",
+    question:
+      "Which of the following keywords is used to define a variable in Javascript?",
     answers: [
       {
         text: "var",
@@ -42,7 +43,8 @@ const questions = [
     ],
   },
   {
-    question: "3. Which of the following methods is used to access HTML elements using Javascript?",
+    question:
+      "Which of the following methods is used to access HTML elements using Javascript?",
     answers: [
       {
         text: "geElementbyId()",
@@ -63,7 +65,8 @@ const questions = [
     ],
   },
   {
-    question: "4. Upon encountering empty statements, what does the Javascript Interpreter do?",
+    question:
+      "Upon encountering empty statements, what does the Javascript Interpreter do?",
     answers: [
       {
         text: "Throws and error",
@@ -84,7 +87,8 @@ const questions = [
     ],
   },
   {
-    question: "5. Which of the following methods can be used to display data in some form using Javascript?",
+    question:
+      "Which of the following methods can be used to display data in some form using Javascript?",
     answers: [
       {
         text: "document.write()",
@@ -105,7 +109,7 @@ const questions = [
     ],
   },
   {
-    question: "6. How can a datatype be declared to be a constant type?",
+    question: "How can a datatype be declared to be a constant type?",
     answers: [
       {
         text: "const",
@@ -125,34 +129,33 @@ const questions = [
       },
     ],
   },
-  {
-    question: `7. What will be the output of the following code snippet?
-    ${
-    <code>
-        <script type="text/javascript">
-            a = 5 + "9";
-            document.write(a);
-        </script>
-    </code>}`,
-    answers: [
-      {
-        text: "Compilation Error",
-        correct: false,
-      },
-      {
-        text: "14",
-        correct: false,
-      },
-      {
-        text: "Runtime Error",
-        correct: false,
-      },
-      {
-        text: "59",
-        correct: true,
-      },
-    ],
-  },
+  // {
+  //   question: 'What will be the output of the following code snippet?'+
+  //   <code>
+  //       <script type="text/javascript">
+  //           a = 5 + "9";
+  //           document.write(a);
+  //       </script>
+  //   </code>,
+  //   answers: [
+  //     {
+  //       text: "Compilation Error",
+  //       correct: false,
+  //     },
+  //     {
+  //       text: "14",
+  //       correct: false,
+  //     },
+  //     {
+  //       text: "Runtime Error",
+  //       correct: false,
+  //     },
+  //     {
+  //       text: "59",
+  //       correct: true,
+  //     },
+  //   ],
+  // },
 ];
 
 const questionElement = document.getElementById("question");
